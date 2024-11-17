@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Casino Card Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Simple Casino Card Game</h1>
+    </header>
+
+    <main>
+        <section id="game-info">
+            <h2>About the Game</h2>
+            <p>Play a classic card game with simple rules and exciting gameplay. Enjoy an easy-to-learn card game that will keep you entertained!</p>
+        </section>
+
+        <section id="play-game">
+            <h2>Play Now</h2>
+            <button onclick="startGame()">Start Game</button>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Simple Casino Card Game. All Rights Reserved.</p>
+    </footer>
+
+    <script>
+        function startGame() {
+            alert("Game starting! This is a placeholder for game logic.");
+        }
+    </script>
+</body>
+</html>
